@@ -1,0 +1,29 @@
+{
+  "name": "meetup-dapp",
+  "version": "1.0.0",
+  "description": "A full-stack Decentralized App to attend and post events and meetups!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node scripts/run.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uttam-Singhh/Meetup-DAPP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uttam-Singhh/Meetup-DAPP/issues"
+  },
+  "homepage": "https://github.com/Uttam-Singhh/Meetup-DAPP#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.6"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.3"
+  }
+}
